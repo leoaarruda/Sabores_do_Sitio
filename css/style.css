@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@400;700&display=swap');
+
+:root {
+    --primaryColor: #85c242;
+    --primaryFontColor: #358e2f;
+    --secondaryFontColor: #fdfdfc;
+    --primaryFont: "Averia Libre", system-ui;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(to bottom, var(--primaryColor), var(--secondaryFontColor));
+    position: relative;
+}
+
+#farmer {
+    width: 30px;
+    translate: 60px 30px;
+    transform: rotate(10deg);
+    opacity: .82;
+}
+
+#cow {
+    width: 30px;
+    translate: -10px 118px;
+    transform: rotate(-10deg);
+    opacity: .82;
+}
+
+#market {
+    width: 30px;
+    translate: -40px 220px;
+    opacity: .82;
+}
+
+#food {
+    width: 30px;
+    translate: 200px 20px;
+    transform: rotate(-10deg);
+    opacity: .82;
+}
+
+#jam {
+    width: 30px;
+    translate: 200px 115px;
+    opacity: .82;
+}
+
+#chicken {
+    width: 30px;
+    translate: 160px 245px;
+    transform: rotate(15deg);
+    opacity: .82;
+}
+
+.logo {
+    padding-top: 2rem;
+    width: 60%;
+    display: block;
+    filter: drop-shadow(5px 5px 10px #000);
+    margin: 0 auto;
+}
+
+.body {
+    font-family: var(--primaryFont);
+    font-weight: 400;
+}
+
+.main-title {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primaryFontColor);
+    font-weight: 700;
+}
+
+.main-title h1 {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, .5);
+}
+
+.main-title p {
+    background-color: #c0342ddc;
+    color: var(--secondaryFontColor);
+    width: 80%;
+    font-size: 1rem;
+    padding: .6rem;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 2px 0px 3px rgba(0, 0, 0, .5);
+}
+
+.products {
+    width: 95%;
+    margin: 2rem auto;
+    text-align: center;
+    color: var(--primaryFontColor);
+}
+
+.products h2 {
+    font-size: 1.3rem;
+    text-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+.produdct {
+    border: 1px solid #dda15e;
+    background-color: #fefae0;
+    box-shadow: -7px 8px 23px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -7px 8px 23px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 8px 23px -8px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 85%;
+    margin: 1rem auto;
+    display: flex;
+}
+
+/* .products_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+} */
+
+.img-product {
+    width: 50%;
+}
